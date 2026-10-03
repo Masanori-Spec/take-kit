@@ -1,0 +1,49 @@
+{
+  "schema": "take-kit-review/v1",
+  "sourceSha256": "93028951f74f1c42feb53ca9dc594d647febc8c5f879c78874adb3ef50a6b2ef",
+  "source": {
+    "sampleRate": 24000,
+    "channels": 2,
+    "frames": 96000
+  },
+  "detection": {
+    "thresholdDb": -36,
+    "silenceMs": 80
+  },
+  "settings": {
+    "midiKey": 60,
+    "gain": "none",
+    "fadeInFrames": 0,
+    "fadeOutFrames": 0
+  },
+  "hits": [
+    {
+      "id": "h0001",
+      "start": 6007,
+      "end": 9469,
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "h0002",
+      "start": 28004,
+      "end": 32928,
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "h0003",
+      "start": 50003,
+      "end": 56080,
+      "included": true,
+      "reviewed": false
+    },
+    {
+      "id": "h0004",
+      "start": 72005,
+      "end": 76304,
+      "included": true,
+      "reviewed": false
+    }
+  ]
+}

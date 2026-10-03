@@ -1,0 +1,6 @@
+node_modules/
+dist/
+output/
+tests/browser/artifacts/
+__pycache__/
+*.tmp
