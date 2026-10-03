@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "sourceCommit": "495500031b74bd965a90bd81a628dafd4eff7353",
+  "runId": 37145506490,
+  "zipSha256": "67d69756165829b3555d9ec3e266e5366e6cf7227d9778ab4fb62a9d7ac2ae18",
+  "sourceSha256": "93028951f74f1c42feb53ca9dc594d647febc8c5f879c78874adb3ef50a6b2ef",
+  "hits": 3,
+  "pcmWordsCompared": 28926,
+  "checks": [
+    "ZIP CRC and safe exact paths",
+    "fixed timestamps and STORE compression",
+    "source SHA-256",
+    "WAV headers and frame counts",
+    "all PCM words match independent rational shared gain and fades",
+    "per-WAV SHA-256",
+    "review ordering and structural SFZ mapping"
+  ],
+  "sfzPlayerPlayback": "not tested",
+  "humanListening": "not performed"
+}

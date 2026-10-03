@@ -80,7 +80,20 @@ npm run test:browser          # start npm run serve first; sandboxed Playwright 
 npm run package              # source ZIP + SHA-256 file manifest in ../take-kit-output
 ```
 
-See [verification status](docs/VERIFICATION.md), [design](docs/ENGINE.md), [review schema](docs/SCHEMA.md), and [security](SECURITY.md). Browser test dependencies are pinned in the lockfile. The GitHub Actions workflow is supplied but a local test pass does not imply a remote workflow pass. No SFZ player or human listening comparison was conducted.
+See [verification status](docs/VERIFICATION.md), [design](docs/ENGINE.md), [review schema](docs/SCHEMA.md), and [security](SECURITY.md). Browser test dependencies are pinned in the lockfile. [Verified CI run](https://github.com/Masanori-Spec/take-kit/actions/runs/37145506490) passed Node 22/24 engine checks and eight sandboxed Chromium scenario groups for commit `495500031b74bd965a90bd81a628dafd4eff7353`. The downloaded three-hit browser export passed an independent Python check of all 28,926 PCM words, WAV headers, ZIP CRCs, hashes, and structural SFZ mapping. No SFZ player or human listening comparison was conducted.
+
+## Screenshots from the verified CI run
+
+English desktop at 1440px and Japanese mobile at 390px. Both show the synthetic demo; these are real browser captures, not design mockups.
+
+![English desktop review workbench](docs/ci/desktop.png)
+
+<details>
+<summary>Japanese mobile view</summary>
+
+![Japanese mobile review workbench](docs/ci/mobile.png)
+
+</details>
 
 ## Rights and scope
 

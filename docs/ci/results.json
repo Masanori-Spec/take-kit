@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "sandbox": true,
+  "results": [
+    {
+      "name": "Japanese/English UI, keyboard skip link, synthetic four-hit waveform",
+      "status": "passed"
+    },
+    {
+      "name": "Processed audition and immediate stop on source/review changes",
+      "status": "passed"
+    },
+    {
+      "name": "Integer boundary checks, unapplied edit gate and review invalidation",
+      "status": "passed"
+    },
+    {
+      "name": "Reorder, exclude, common gain resets review; exact ZIP export and source-bound JSON resume",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid WAV and silence recovery, including empty review resume",
+      "status": "passed"
+    },
+    {
+      "name": "Cancel and newer input suppress late worker results, no stale export",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile layout, no horizontal overflow, bilingual toggle retained",
+      "status": "passed"
+    },
+    {
+      "name": "No off-origin requests, no console page errors",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4173/",
+    "http://127.0.0.1:4173/styles.css",
+    "http://127.0.0.1:4173/app.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "blob:http://127.0.0.1:4173/b893c53a-42e8-439a-9e48-3908c98f5d80",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "blob:http://127.0.0.1:4173/b1b4dbca-406e-44fb-8d0c-2de97a9b9782",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs",
+    "http://127.0.0.1:4173/worker.mjs",
+    "http://127.0.0.1:4173/engine.mjs"
+  ]
+}
